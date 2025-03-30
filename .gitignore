@@ -1,0 +1,48 @@
+## Ignore .NET build results
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+.vs
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Package directories
+packages/
+*.nupkg
+
+## Logs
+*.log
+
+## Temporary files
+*.tmp
+*.bak
+*.old
+
+## Dotnet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Others
+*.swp
+*.swo
+
+## Docker
+docker-compose.override.yml
+.env
